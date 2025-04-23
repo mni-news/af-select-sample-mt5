@@ -30,7 +30,7 @@ Open MetaTrader 5 and start the service.
 
 ### MniAfSelectConnector Service properties
 * Set the iUsername/iPasscode properties.
-* Set the iSelectHost property to either select-test.aplhaflash.com or select.aplhaflash.com (production)
+* Set the iSelectHost property to either select-test.alphaflash.com or select.alphaflash.com (production)
 * Set the iUseTls property to true to use TLS, false to use plain-text socket.
 ![compile](images/mt5-service-2.png)
 
