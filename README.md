@@ -22,25 +22,35 @@ Use MetaEditor 5 to build the Service.
 
 ## Running the Service
 
-Open MetaTrader 5 and start the service.
+Open MetaTrader 5, configure the allowed URLs and start the service.
+
+### Configure Allowed URLs
+* Open Tools->Options and select the Expert Advisors tab.
+* Add URLs as follows
+
+![Configure Allowed URLs](images/mt5-options-urls.png)
 
 ### MniAfSelectConnector Service
 * Under Services expand the MniAfSelectConnector and open the properties.
-![compile](images/mt5-service-1.png)
+
+![MniAfSelectConnector Service](images/mt5-service-1.png)
 
 ### MniAfSelectConnector Service properties
 * Set the iUsername/iPasscode properties.
 * Set the iSelectHost property to either select-test.alphaflash.com or select.alphaflash.com (production)
 * Set the iUseTls property to true to use TLS, false to use plain-text socket.
-![compile](images/mt5-service-2.png)
+
+![MniAfSelectConnector Service properties](images/mt5-service-2.png)
 
 ### MniAfSelectConnector Service startup
 * Start the MniAfSelectConnector service.
-![compile](images/mt5-service-3.png)
+
+![MniAfSelectConnector Service startup](images/mt5-service-3.png)
 
 ### MniAfSelectConnector Service logging
 * Note log entries for the MniAfSelectConnector service.
-![compile](images/mt5-service-4.png)
+
+![MniAfSelectConnector Service logging](images/mt5-service-4.png)
 
 
 ## Dependencies
